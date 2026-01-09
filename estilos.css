@@ -266,3 +266,8 @@ color: red;
   margin: 20px auto;
   padding: 0;
 }
+
+.boton:hover {
+background: #111;
+color: hsl(210, 12%, 90%);
+}
