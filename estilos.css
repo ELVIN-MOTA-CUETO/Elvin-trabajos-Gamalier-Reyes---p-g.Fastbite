@@ -1,0 +1,268 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: hsl(0, 71%, 69%);
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.padre {
+background-color: hsl(0, 71%, 69%);
+padding: 10px;
+}
+
+.instagran img {
+width: 100%;
+height:560px ;
+}
+
+.whatsapp img {
+  width: 100%;
+height:560px ;
+}
+
+.faceboock img {
+    width: 100%;
+height:560px ;
+}
+
+.footer {
+  background-color: hsl(0, 71%, 69%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  background: #f1c40f;
+  color: white;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+background-color: aliceblue;
+gap: 10px;
+padding: 12px;
+margin: 0px 200px;
+border-radius: 15px;
+}
+
+.menu a {
+font-size: 20px;
+padding: 10px 10px 10px 10px;
+color: #111;
+background-color: #c0c5ca;
+text-decoration: none;
+border-radius: 7px;
+}
+
+.menu a:hover {
+background: black;
+color: hsl(0, 0%, 100%);
+}
+.menu .ahora {
+background: black;
+color: #c0c5ca;
+}
+
+
+.logo {
+  margin-right: 40px;
+}
+
+.logo img {
+  width: 90px;
+  height: auto;
+}
+
+.naranja {
+color: lab(81.54% -3.31 81.9);
+font-family:'Times New Roman', Times, serif;
+}
+
+
+.carrusel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carrusel img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.carrusel h2 {
+color:  red;
+font-size: 40px ;
+margin: 30px 0px 16px 18px;
+
+}
+
+.mejores {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.mejores h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: hwb(0 86% 10%);
+  width: 220px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.galeria a {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nosotros {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px 0px 0px 200px;
+  text-align: center;
+}
+
+.nosotros2 {
+border: 2px solid black;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+margin: 20px 200px;
+}
+
+.nosotros2 img {
+  border-radius: 20px;
+width: 600px;
+height: 400px;
+padding: 17px;
+}
+
+.nosotros2 p {
+padding: 5px 10px;
+}
+
+.nosotros h1 {
+  color: red;
+}
+
+.nosotros {
+text-align: left;
+}
+
+.contacto {
+ max-width: 800px;
+  margin: 40px 0px 0px 200px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.contacto h1 {
+text-align: left;
+color: red;
+}
+
+.pedidos form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pedidos h2 {
+text-align: center;
+}
+
+.pedidos {
+background-image: url(pedidosya.png);
+padding: 30px;
+margin: 20px 400px;
+border-radius: 30px ;
+  background-position: center;
+}
+
+.verde {
+background-color: chartreuse;
+}
+
+.producto {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.producto2 {
+margin: 10px;
+border: 2px solid #767373;
+border-radius: 20px;
+padding: 10px;
+}
+
+.producto2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+margin: 0 auto ;
+border-radius: 20px;
+text-align: center;
+}
+
+.boton {
+text-decoration: none;
+background-color: hwb(206 85% 12%);
+margin: 0px 0px 10px 150px;
+color: #111;
+border: 1px solid gray;
+padding: 2px;
+}
+
+.productotitulo {
+color: red;
+  margin: 20px auto;
+  padding: 0;
+}
